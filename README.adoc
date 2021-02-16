@@ -1,0 +1,23 @@
+
+= Modular Table Clip System
+
+Do you have table so cluttered you don't see the color of the desk? TableClip to the recue! ;)
+
+Jokes aside, some time ago I've got inspired by the https://www.thingiverse.com/thing:2892387[USB Cable Organizer] and thought that this could be extended to other useful things and also improved.
+
+So I designed modular system that is divided to parts. The table clip itsef, which can be extended through lock mechanism. And modules that can be locked to the clip with different functionalities.
+
+There is cable organizer, pencil rack, headphones holder, ...
+
+*BUT* the best thing about it is that I'm sharing the sources. So everybody can design his own modules.
+
+If you do not want to design new modules in the OpenSCAD, you can use just the key object (`_key.stl`) and add it to anything you design in program of your choice.
+
+
+.Dependencies
+* threadlib - https://github.com/adrianschlatter/threadlib
+** dependencies of the threadlib (follow the instructions on their page, it's just copying files over)
+** scad-utils - https://github.com/openscad/scad-utils
+** list-comprehension - https://github.com/openscad/list-comprehension-demos
+** thread_profile.scad - https://github.com/MisterHW/IoP-satellite/blob/master/OpenSCAD%20bottle%20threads/thread_profile.scad
+* Round-Anything - https://github.com/Irev-Dev/Round-Anything
