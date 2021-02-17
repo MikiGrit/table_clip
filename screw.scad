@@ -32,7 +32,7 @@ module screw() {
     }
 
     module final() {
-        translate([0, 0, screw_head_height]) bolt(screw_type, turns=1.6*plane_thickness);
+        translate([0, 0, screw_head_height]) bolt(screw_type, turns=screw_length);
 
         translate([0, 0, rounding]) minkowski() {
             screw_head();

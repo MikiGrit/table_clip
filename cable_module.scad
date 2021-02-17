@@ -10,6 +10,7 @@ hook_space = 6;
 hook_height = 6;
 module_length = lock_length();
 
+
 module cable_holder(length = default_length) {
     module_width_true = module_width - rounding;
     module_height = plane_thickness + hook_height + 2;

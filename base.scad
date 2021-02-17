@@ -4,6 +4,10 @@ include <config.scad>
 use <utils.scad>
 use <lock.scad>
 
+table_depth = 20;
+table_thickness = 20;
+side_thickness = 4;
+
 
 module handle(lock_pieces = lock_pieces, length = -1) {
     assert(lock_pieces > 0);
@@ -12,6 +16,8 @@ module handle(lock_pieces = lock_pieces, length = -1) {
 
     length = length == -1 ? lock_length(pieces=lock_pieces) : length;
     length_true = length - 2*rounding;
+    table_depth_true = table_depth;
+    side_thickness_true = side_thickness - rounding;
 
     module skelet() {
         // bottom part
@@ -58,6 +64,8 @@ module handle(lock_pieces = lock_pieces, length = -1) {
     }
 
     module final() {
+        handle_height = 2*plane_thickness + table_thickness + 2*rounding;
+
         difference() {
             translate([-rounding, 0, 0]) quickMinkowski(rounding) skelet();
 
@@ -67,7 +75,7 @@ module handle(lock_pieces = lock_pieces, length = -1) {
         }
     }
 
-    translate([length, table_depth + 2*plane_thickness, 0]) rotate([0, -90, 90]) final();
+    translate([length, table_thickness + 2*plane_thickness, 0]) rotate([0, -90, 90]) final();
     //final();
 }
 

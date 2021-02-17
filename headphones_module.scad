@@ -25,7 +25,7 @@ module headphones_holder(length) {
       head_r = (head_module_width*head_module_width) / (8*cable_module_thickness) + cable_module_thickness/2;
       head_wide = 2;
       head_end_length = 10;
-      head_end_height = 20;
+      head_end_height = 16;
       head_end_length_true = head_end_length - 2*2*head_wide;
       head_end_height_true = head_end_height - 2*head_wide;
 
@@ -34,7 +34,7 @@ module headphones_holder(length) {
           translate([0, 0, -head_r+head_module_thickness]) rotate([0, 90, 0]) chamfercyl(r=head_r, h=head_module_length, t=head_wide, b=-2*head_wide);
 
           translate([0, -head_r, -2*head_wide]) quickMinkowski(2*head_wide) cube([head_end_length_true, 2*(head_r - 2*head_wide), head_end_height_true]);
-          translate([0, 0, head_end_height_true-head_r+head_module_thickness]) rotate([0, 90, 0]) chamfercyl(r=head_r, h=head_end_length, t=-2*head_wide, b=-2*head_wide);
+          translate([0, 0, head_end_height_true]) rotate([0, 90, 0]) chamfercyl(r=head_r, h=head_end_length, t=-2*head_wide, b=-2*head_wide);
         }
 
         translate([-0.5, -(head_r + head_wide), -2*(head_r+head_wide)]) cube([head_module_length+1, 2*(head_r + head_wide), 2*(head_r + head_wide)]);
