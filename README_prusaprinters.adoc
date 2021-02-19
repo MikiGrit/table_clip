@@ -35,6 +35,6 @@ Link to the sources: https://github.com/MikiGrit/table_clip
 
 === Print instructions
 
-You should print one base module (`base_*.stl`), two screws and connecting module of your choice.
+For one set, print one base module of your choice (`base_*.stl`), two screws and connecting module with desired functionality.
 
-Everything should be printable without supports. Tested with 0.2mm layer.
+Everything is printable without supports. Tested with 0.2mm layer.

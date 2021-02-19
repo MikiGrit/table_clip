@@ -14,7 +14,7 @@ lock_depth = 2;
 lock_width = 6.6;
 lock_distance = 25;
 lock_pieces = 3;
-lock_module_width = 2;
+lock_wall_width = 4;
 rounding = 1.5;
 
 // computed parameters
@@ -22,4 +22,4 @@ lock_body_height = lock_height - lock_depth;
 default_length_true = default_length - 2*rounding;
 plane_thickness_true = plane_thickness - 2*rounding;
 screw_type = str("M",screw_size);
-lock_module_width_true = lock_module_width - rounding;
+lock_wall_width_true = lock_wall_width - rounding;

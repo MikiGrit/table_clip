@@ -25,7 +25,7 @@ module headphones_holder(length) {
       head_r = (head_module_width*head_module_width) / (8*cable_module_thickness) + cable_module_thickness/2;
       head_wide = 2;
       head_end_length = 10;
-      head_end_height = 16;
+      head_end_height = 12;
       head_end_length_true = head_end_length - 2*2*head_wide;
       head_end_height_true = head_end_height - 2*head_wide;
 
