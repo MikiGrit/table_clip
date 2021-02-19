@@ -5,11 +5,16 @@ Do you have table so cluttered you don't see the color of the desk? TableClip to
 
 Jokes aside, some time ago I've got inspired by the https://www.thingiverse.com/thing:2892387[USB Cable Organizer] and thought that this could be extended to other useful things and also improved.
 
-So I designed modular system that is divided to parts. The table clip itsef and various modules, that can be attached to the clip through lock mechanism.
+So I designed modular system that is divided to parts. The table clip itsef and various modules that can be attached to the clip through lock mechanism.
 
-Currently there is cable organizer, pencil rack and headphones holder.
+.Available modules
+* cable holder
+* pen and paper holder
+* headphones holder
 
-*BUT* the best thing about it is that I'm sharing the sources. So everybody can design his own modules that can be attached to the base module.
+For the ready-to-print `stl` files, go to https://www.prusaprinters.org/prints/57023-modular-tableclip-system-with-sources[TableClip on prusaprinters.org]
+
+*BUT* the best thing about it is that I'm sharing the sources here. So everybody can design his own modules that can be attached to the base module.
 
 == Designing own modules
 
