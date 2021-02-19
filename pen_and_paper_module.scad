@@ -9,12 +9,12 @@ paper_size = [30, 100, 60];
 box_thickness = 3.4;
 
 
-module pencil_holder(pencil_size, paper_size) {
+module pencil_holder(pencil_size, paper_size, thickness) {
 
     module shape() {
         minkowskiRound(rounding, rounding, enable=1, $fs=1) {
-            translate([0, paper_size[1]-box_thickness, 0]) box(pencil_size, thickness=box_thickness);
-            box(paper_size, thickness=box_thickness);
+            translate([0, paper_size[1]-thickness, 0]) box(pencil_size, thickness=thickness);
+            box(paper_size, thickness=thickness);
         }
     }
 
@@ -27,4 +27,4 @@ module pencil_holder(pencil_size, paper_size) {
     final();
 }
 
-pencil_holder(pencil_size, paper_size);
+pencil_holder(pencil_size, paper_size, box_thickness);
