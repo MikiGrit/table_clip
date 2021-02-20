@@ -11,6 +11,7 @@ So I designed modular system that is divided to parts. The table clip itsef and 
 * cable holder
 * pen and paper holder
 * headphones holder
+* storage box
 
 For the ready-to-print `stl` files, go to https://www.prusaprinters.org/prints/57023-modular-tableclip-system-with-sources[TableClip on prusaprinters.org]
 

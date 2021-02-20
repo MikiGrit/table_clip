@@ -15,14 +15,15 @@ Do you have table so cluttered you don't see the color of the desk? *TableClip* 
 
 Jokes aside, some time ago I've got inspired by the https://www.thingiverse.com/thing:2892387 and thought that this could be extended to other useful things and also improved.
 
-So I designed modular system that is divided to parts. The table clip itsef and various modules that can be attached to the clip through lock mechanism.
+So I designed modular system that is divided to two parts. The table clip itsef and various modules that can be attached to the clip through lock mechanism.
 
 .Available modules
 * cable holder
 * pen and paper holder
 * headphones holder
+* storage box (60x100x30mm)
 
-The base modules are currently in 20mm and 30mm width. But it is very simple to add more.
+The base modules are currently in 20mm and 30mm width. It is very simple to add additional widths.
 
 *BUT* the best thing about it is that I'm sharing the sources (https://github.com/MikiGrit/table_clip). So everybody can design new modules that can be attached to the base module.
 
