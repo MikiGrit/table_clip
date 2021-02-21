@@ -21,7 +21,7 @@ For the ready-to-print `stl` files, go to https://www.prusaprinters.org/prints/5
 
 image::img/_key_desc.png[]
 
-If you do not want to design new modules in the OpenSCAD, you can use just the key object (`_key.stl`) and add it to anything you design in program of your choice. The key and the lock themselves are designed in a way that allows for two things:
+If you do not want to design new modules in the OpenSCAD, you can use just the key object (`_key.stl`) and add it to anything you design in program of your choice. The key and the lock themselves are designed in a way that allows two things:
 
 . It is not necessary to print the key in the full height. The connected module still stays on top (see headphones holder for example).
 . Key does not have to be printed from the bed, it is fully capable of printing in the middle of the print. The modules themselves can therefore extend below the table (see pencil holder for example).

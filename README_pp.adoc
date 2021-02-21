@@ -19,7 +19,7 @@ So I designed modular system that is divided to two parts. The table clip itsef 
 
 .Available modules
 * cable holder
-* pen and paper holder
+* pen and paper holder (papers up to 90mm width)
 * headphones holder
 * storage box (60x100x30mm)
 
@@ -27,7 +27,7 @@ The base modules are currently in 20mm and 30mm width. It is very simple to add 
 
 *BUT* the best thing about it is that I'm sharing the sources (https://github.com/MikiGrit/table_clip). So everybody can design new modules that can be attached to the base module.
 
-If you do not want to design new modules in the OpenSCAD (for which the sources are), you can use just the key object (`_key.stl`) and add it to anything you design in program of your choice. The key and the lock themselves are designed in a way that allows for two things:
+If you do not want to design new modules in the OpenSCAD (for which the sources are), you can use just the key object (`_key.stl`) and add it to anything you design in program of your choice. The key and the lock themselves are designed in a way that allows two things:
 
 . It is not necessary to print the key in full height. The connected module still stays on top (see headphones holder for example).
 . Key does not have to be printed from the bed, it is fully capable of printing in the middle of the print. The modules themselves can therefore extend below the table (see pencil holder for example).
