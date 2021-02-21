@@ -1,0 +1,29 @@
+
+= Model Description
+
+== Print Name
+
+Dell Charger Box for TableClip System
+
+== Summary
+
+Have a power supply that always gets in your way on the table? Clip it from the side!
+
+== Description
+
+Module for the TableClip system: https://www.prusaprinters.org/cs/prints/57023-modular-tableclip-system-with-sources
+
+Does a notebook charger always gets in your way on the table? Clip it from the side!
+
+If you have notebook charger from Dell (and possibly other manufacturers with similar shape), then this box will be perfect for you.
+
+You can also design your own modules with the available sources.
+
+Link to the base module: https://www.prusaprinters.org/cs/prints/57023-modular-tableclip-system-with-sources
+Link to the sources: https://github.com/MikiGrit/table_clip
+
+=== Print instructions
+
+Print one base module from the original TableClip print of your choice (`base_*.stl`), two screws and module in this print.
+
+Printable without supports. Tested with 0.2mm layer.
