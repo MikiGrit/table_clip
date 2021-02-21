@@ -1,4 +1,5 @@
-$fs = 0.6;
+$fa = 6;
+$fs = 0.25;
 
 // user defined parameters
 default_length = 100;

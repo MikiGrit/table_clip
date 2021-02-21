@@ -51,16 +51,6 @@ module lock_piece(tolerance = 0, max_height = -1) {
 }
 
 
-module lock_deprecated(lock_groove = false, max_height = -1) {
-    tolerance = (lock_groove == true) ? tolerance : 0;
-
-    for (a = [-lock_distance : lock_distance : lock_distance]) {
-        translate([0, a, 0])
-          lock_piece(tolerance = tolerance, max_height = max_height);
-    }
-}
-
-
 module lock_module(height = -1, length = default_length) {
     height = (height == -1) ? lock_height : height;
     height_move = max(height - lock_body_height - lock_depth, 0);
