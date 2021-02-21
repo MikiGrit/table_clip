@@ -1,3 +1,7 @@
 
 # Generated object files
 *.stl
+
+# Uncommited image files
+*.jpg
+*.png
