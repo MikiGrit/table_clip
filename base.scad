@@ -12,8 +12,6 @@ side_thickness = 4;
 module handle(lock_pieces = lock_pieces, length = -1) {
     assert(lock_pieces > 0);
 
-    $fa = 4;
-
     length = length == -1 ? lock_length(pieces=lock_pieces) : length;
     length_true = length - 2*rounding;
     table_depth_true = table_depth;
@@ -56,7 +54,7 @@ module handle(lock_pieces = lock_pieces, length = -1) {
         if (lock_pieces < 3) {
             translate([0, 0, -1.0]) tap(screw_type, turns=plane_thickness);
         } else {
-            tap_distance = lock_distance * ((lock_pieces-1)/2) - 1/3*lock_distance;
+            tap_distance = lock_distance * ((lock_pieces-1)/2) - 1/5*lock_distance;
 
             translate([0, tap_distance, -1.0]) tap(screw_type, turns=plane_thickness);
             translate([0, -tap_distance, -1.0]) tap(screw_type, turns=plane_thickness);
